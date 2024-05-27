@@ -9,4 +9,4 @@ const app = express()
 
 app.use(express.json())
 
-app.listen(port, () => console.log(chalk.bgCyanBright(`Server listen on port ${port}`)))
+app.listen(port, () => console.log(chalk.cyanBright.underline(`Server listen on port ${port}`)))
